@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crudKPMG", "crudKPMG\crudKPMG.csproj", "{691FAE28-756D-4D9F-9AF2-012EC56F9C5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{691FAE28-756D-4D9F-9AF2-012EC56F9C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691FAE28-756D-4D9F-9AF2-012EC56F9C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691FAE28-756D-4D9F-9AF2-012EC56F9C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691FAE28-756D-4D9F-9AF2-012EC56F9C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B5F6BB5-EDFD-4C21-8B52-442333A6E8A2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿@model crudKPMG.Models.Pessoa
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <form action="/pessoa/create" method="post">
+        <input type="text" name="Nome" /><br />
+        <input type="text" name="Email" /><br />
+        <input type="text" name="DDD" /><br />
+        <input type="text" name="Telefone" /><br />
+        <input type="text" name="Endereco" /><br />
+        <input type="text" name="Num_endereco" /><br />
+        <button>Salvar</button>
+    </form>
+</body>
+</html>

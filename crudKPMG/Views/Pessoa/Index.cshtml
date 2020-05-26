@@ -1,0 +1,29 @@
+﻿@model IEnumerable<crudKPMG.Models.Pessoa>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <table>
+        @foreach (var pessoa in Model)
+        {
+            <tr>
+                <td>@pessoa.Id</td>
+                <td>@pessoa.Nome</td>
+                <td>@pessoa.Email</td>
+                <td>@pessoa.DDD</td>
+                <td>@pessoa.Telefone</td>
+                <td>@pessoa.Endereco</td>
+                <td>@pessoa.Num_endereco</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
